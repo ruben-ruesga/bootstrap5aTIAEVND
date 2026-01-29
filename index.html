@@ -545,40 +545,43 @@
 
         <!-- contacto -->
          <section id="contact" aria-labelledby="titulo contacto">
-            <div class="container">
-                <header>
+            <div class="container py-5">
+                <header class="mb-4">
                     <h2 id="titulo contacto">Contact</h2>
-                    <p>If you have any questions or would like to learn more about Melanie Martinez's discography, feel free to reach out through her official website or social media channels.</p>
+                    <p class="text-muted">If you have any questions or would like to learn more about Melanie Martinez's discography, feel free to reach out through her official website or social media channels.</p>
                 </header>
 
                 <form action="#" method="post">
                     <fieldset>
                         <legend>Contact Form</legend>
-                    <p>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required />
-                    </p>
-                    <p>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required />
-                    </p>
-                    <p>
-                        <label for="tema">Tema:</label> <br>
-                        <select name="tema" id="tema">
-                            <option value="">Select a topic</option>
-                            <option value="discography">Discography</option>
-                            <option value="events">Events</option>
-                            <option value="merchandise">Merchandise</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label for="message">Message:</label> <br>
-                        <textarea id="message" name="message" rows="10" cols="50" required></textarea>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
-                        <button type="reset">Reset</button>
-                    </p>
+                        <div class="row g-3">
+                            <div class="col-12 col-md-6">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" id="name" name="name" required />
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" id="email" name="email" required />
+                            </div>
+                            <div class="col-12">
+                                <label for="tema" class="form-label">Tema:</label> <br>
+                                <select name="tema" class="form-select" id="tema">
+                                    <option value="">Select a topic</option>
+                                    <option value="discography">Discography</option>
+                                    <option value="events">Events</option>
+                                    <option value="Mvs">Music Videos</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message:</label> <br>
+                                <textarea id="message" name="message" rows="10" class="form-control" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary me-2">Send</button>
+                                <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>
