@@ -7,15 +7,15 @@
     <meta name="description" content="Explore the complete discography of Melanie Martinez,including albums, singles, and EPs." /> 
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
 </head>
-<body>
+<body class="bg-light text-dark">
     <header>
         <a href="#contenido" aria-label="Jump to content">Jump to content</a>
-        <div class="container">
+        <div class="container text-center">
             <h1> This is Melanie Martinez</h1>
             <p>Explore the complete discography of Melanie Martinez, including albums, singles, and EPs.</p>
         </div>
 
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Main Navigation">
+        <nav class="navbar navbar-expand-md navbar-dark bg-success" aria-label="Main Navigation">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar u ocultar menú">
                     <span class="navbar-toggler-icon"></span>
@@ -589,19 +589,25 @@
     </main>
 
     <!-- pie de pagina -->
-    <footer>
-        <nav aria-labelledby="Enlaces del footer">
-            <ul>
-                <li><a href="#beginnings">Beginnings</a></li>
-                <li><a href="#musical albums">Discography</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <p>
-            <small>2026 Melanie Martinez fanPage</small>
-        </p>
+    <footer class="bg-light mt-5">
+        <div class="container py-4">
+            <div class="row g-3 align-items-center">
+                <nav class="col-12 col-md-6" aria-labelledby="Enlaces del footer">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#beginnings" class="text-decoration-none">Beginnings</a></li>
+                        <li><a href="#musical albums" class="text-decoration-none">Discography</a></li>
+                        <li><a href="#faq" class="text-decoration-none">FAQ</a></li>
+                        <li><a href="#contact" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="col-12 col-md-6 text-md-end">
+                    <small class="text-muted">© 2026 Melanie Martinez FanPage</small>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js">
+    </script>
 </body>
 </html>
