@@ -1,0 +1,71 @@
+.transition {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    background-color: #faa9fc;
+    outline: #faa9fc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ef46ef;
+    outline: #ef46ef;
+}
+
+.btn-secondary {
+    background-color: #8dc2ff;
+    outline: #8dc2ff;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #6aa8ff;
+    outline: #6aa8ff;
+}
+
+.btn-warning {
+    background-color: #fee08a;
+    outline: #fee08a;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #ffd43a;
+    outline: #ffd43a;
+}
+
+.btn-success {
+    background-color: #ffcb62;
+    outline: #ffcb62;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #d78d26;
+    outline: #d78d26;
+}
+
+.btn-danger {
+    background-color: #ff7f7f;
+    outline: #ff7f7f;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #ff4c4c;
+    outline: #ff4c4c;
+}
+
+.navbar-light{
+    color: #ffc1e2;
+}
+
+.bg-dark {
+    background-color: #aaffd7 !important;
+}
